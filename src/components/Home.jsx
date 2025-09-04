@@ -17,7 +17,7 @@ const Home = () => {
   };
 
   const handleResumeClick = () => {
-    window.open('/ChittemVenkataLohitha-Resume.pdf', '_blank');
+    window.open('/Chittem_Venkata_Lohitha_Web Developer_Resume.pdf', '_blank');
   };
 
   return (
