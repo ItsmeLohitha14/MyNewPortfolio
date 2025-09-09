@@ -87,7 +87,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                 {link.name}
               </Link>
             </li>
-          ))}f
+          ))}
         </ul>
       </div>
     </nav>

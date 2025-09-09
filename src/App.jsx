@@ -10,9 +10,9 @@ import Project from './components/Project';
 import Experience from "./components/Experience";
 import Internships from './components/Internships';
 import Certification from "./components/Certification";
+import BootcampsHackathons from "./components/BootcampsHackathons"; // ✅ New import
 import Contact from './components/Contact';
 import './index.css';
-
 
 const MainContent = ({ theme, toggleTheme }) => (
   <>
@@ -69,14 +69,14 @@ const App = () => {
     }
   };
 
-
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
       <Routes>
         <Route path="/" element={<MainContent theme={theme} toggleTheme={toggleTheme} />} />
         <Route path="/internships" element={<Internships />} />
         <Route path="/certifications" element={<Certification />} />
-        <Route path="/experience" element={<Experience />} /> {/* ✅ Added this line */}
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/bootcamps-hackathons" element={<BootcampsHackathons />} /> {/* ✅ New Route */}
       </Routes>
     </div>
   );
