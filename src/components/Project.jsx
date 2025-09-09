@@ -44,8 +44,8 @@ const Project = () => {
       title: "Campus Prep",
       image: project2,
       description: "A Centralized system to manage campus placements and prep resources...",
-      link1: "https://github.com/sandy4314/Tasktrack/",
-      link2: "https://sandy4314.github.io/Tasktrack/"
+      link1: "https://github.com/ItsmeLohitha14/Campus-Prepp-Project",
+      link2: "https://github.com/ItsmeLohitha14/Campus-Prepp-Project"
     },
     {
       id: 3,
