@@ -35,8 +35,8 @@ const Project = () => {
       title: "Thread Link",
       image: project1,
       description: "A platform linking orphanages with surplus clothes to support sustainable donations...",
-      link1: "https://github.com/sandy4314/Cityfix/",
-      link2: "https://github.com/sandy4314/Cityfix/"
+      link1: "https://github.com/ItsmeLohitha14/Thread-Link-Project",
+      link2: "https://github.com/ItsmeLohitha14/Thread-Link-Project"
     },
     {
       id: 2,
